@@ -1,5 +1,10 @@
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
 body{
-  background-color: grey;
+  background-color: #C8C6AA;
   margin: 0;
   padding: 0;
   font-family: "Freestyle Script", "Gabriola", Helvetica, Arial, sans-serif;
@@ -12,7 +17,7 @@ body{
 
  header{
    background-color: #3C4554;
-   height: 80px;
+   height: 90px;
    width: 100%;
    opacity: .9;
    margin-bottom: 10px;
@@ -20,7 +25,7 @@ body{
 
  header h1.logo{
    margin: 2;
-   font-size: 2.0em;
+   font-size: 2.5em;
    color: #E3BC65;
    text-transform: uppercase;
    float:left;
@@ -51,8 +56,9 @@ div.home {
   -webkit-border-radius: 30px;
      -moz-border-radius: 30x;
          -border-radius: 30px;
-  opacity: 0.8;
+  opacity: 0.9;
 }
+
 
 div.about {
   padding: 300px 0 30px 0;
@@ -70,9 +76,16 @@ div.about {
 
 .menu li {
   display: inline;
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: lighter;
 }
+
+.menu li :hover {
+  color: #E71414;
+  text-decoration: underline;
+  font-weight: ;
+}
+
 
 .menu li + li {
   margin-left: 35px;
